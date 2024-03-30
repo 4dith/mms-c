@@ -55,12 +55,24 @@ int API_moveForward() {
     return getAck("moveForward");
 }
 
+int API_moveForwardHalf() {
+    return getAck("moveForwardHalf");
+}
+
 void API_turnRight() {
     getAck("turnRight");
 }
 
 void API_turnLeft() {
     getAck("turnLeft");
+}
+
+void API_turnLeft45() {
+    getAck("turnLeft45");
+}
+
+void API_turnRight45() {
+    getAck("turnRight45");
 }
 
 void API_setWall(int x, int y, char direction) {
